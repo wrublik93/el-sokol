@@ -1,7 +1,8 @@
-import '@telegram-apps/telegram-ui/dist/styles.css';
+import "@telegram-apps/telegram-ui/dist/styles.css";
 
 // import { AppRoot, Placeholder } from '@telegram-apps/telegram-ui';
-import {SDKProvider} from "@tma.js/sdk-react";
+import { SDKProvider } from "@tma.js/sdk-react";
+import { Text } from "@telegram-apps/telegram-ui";
 
 // import "./App.css";
 
@@ -10,7 +11,7 @@ import {SDKProvider} from "@tma.js/sdk-react";
 export const App = () => {
   return (
     <SDKProvider acceptCustomStyles>
-      Hello!
+      <Text>Hello!</Text>
     </SDKProvider>
   );
 };
