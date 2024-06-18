@@ -10,7 +10,7 @@ import { Text } from "@telegram-apps/telegram-ui";
 
 export const App = () => {
   return (
-    <SDKProvider acceptCustomStyles>
+    <SDKProvider>
       <Text>Hello!</Text>
     </SDKProvider>
   );
